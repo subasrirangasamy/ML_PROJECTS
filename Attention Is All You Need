@@ -1,0 +1,15 @@
+*Attention Is All You Need is a research paper published in 2017 by Vaswani et al.
+*The paper introduces the Transformer architecture for sequence modeling tasks.
+*It completely removes the use of RNNs and CNNs.
+*The core idea is that attention alone is sufficient to model sequences.
+*The model uses self-attention to understand relationships between all words in a sentence.
+*Self-attention helps capture long-range dependencies effectively.
+*The Transformer follows an encoder–decoder structure.
+*The encoder processes the input sequence into contextual representations.
+*The decoder generates the output sequence step by step.
+*Multi-head attention allows the model to learn different patterns simultaneously.
+*Scaled dot-product attention is used for efficient computation of attention scores.
+*Positional encoding is added to maintain word order information.
+*The architecture allows parallel processing, unlike RNNs.
+*This results in faster training and better scalability.
+*The Transformer is the foundation of modern models like BERT, GPT, and T5.
